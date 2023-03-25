@@ -23,7 +23,7 @@ export class UI{
             max-width: auto !important;">
                 <img src="http://localhost:5000/uploads/album/${album.album_images[0]}" class="d-block w-100" style="max-height: 500px;
                 max-width: auto;"alt="...">
-                <h3 class="d-flex justify-content-center m-3" style = "color:#3D4D6A;"><a style="max-width:30rem;word-wrap:break-word;">${album.title}</a></h3>
+                <h3 class="d-flex justify-content-center mt-3" style = "color:#3D4D6A;"><a style="max-width:30rem;word-wrap:break-word;">${album.title}</a></h3>
             </div>
             `
         });
