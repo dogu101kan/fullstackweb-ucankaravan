@@ -1,5 +1,5 @@
-import Request  from "./requests";
-import UI from "./ui";
+import {Request}  from "./requests";
+import {UI} from "./ui";
 
 
 const portfolioItems = document.getElementById("portfolio").firstElementChild.children[1];
@@ -7,7 +7,7 @@ const pageSlider = document.getElementById("slider").firstElementChild;
 const navbar = document.getElementById("navbar");
 const Body = document.getElementsByTagName("BODY")[0];
 
-const request = new Request("https://ucankaravan-api-production.up.railway.app/api/");
+const request = new Request("http://localhost:5000/api/");
 const ui = new UI();
 
 let albums;
